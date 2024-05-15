@@ -1,0 +1,6 @@
+[submodule "src/lib/model"]
+	path = src/lib/model
+	url = git@github.com:KristapsKalnins/bt_mesh_provisioner_helper_model.git
+[submodule "src/lib/prov_stage"]
+	path = src/lib/prov_stage
+	url = git@github.com:KristapsKalnins/provisioner_stage.git
