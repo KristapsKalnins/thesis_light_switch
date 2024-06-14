@@ -113,7 +113,7 @@ const struct bt_mesh_time_srv_handlers srv_helper_handlers = {
 	.prov_helper_message_appkey = provisioner_configure_cdb_with_app_key,
 	.prov_helper_message_netkey = provisioner_create_cdb_with_net_key,
 	.prov_helper_message_nodeinfo = NULL,
-	.prov_helper_message_addrinfo = provisioner_process_provisioning_address_range,
+	.prov_helper_message_addrinfo = provisioner_process_provisioning_info,
 };
 
 struct bt_mesh_prov_helper_srv helper_srv = BT_MESH_PROV_HELPER_SRV_INIT(&srv_helper_handlers);
