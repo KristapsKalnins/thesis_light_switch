@@ -20,6 +20,9 @@ static const struct bt_mesh_prov prov = {
 	.uuid = dev_uuid,
 	.unprovisioned_beacon = provisioner_unprovisioned_beacon_callback,
 	.node_added = provisioner_node_added_callback,
+	.oob_info = BT_MESH_PROV_OOB_STRING,
+	.static_val = "NL].KffQkz~DR+$2|^hdYethZ`n{'?vF",
+	.static_val_len = 32,
 };
 
 
